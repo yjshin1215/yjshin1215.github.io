@@ -41,7 +41,7 @@ div {
 .square {
     width: 60px;
     height: 60px;
-    background: white;
+    background: #e67e22;
     display: inline-block;
     margin-right: 30px;
 }
@@ -56,3 +56,32 @@ div {
     width: 54px;
     height: 54px;
 }
+.fancy.circle {
+    border-style: dotted;
+    width: 54px;
+    height: 54px;
+}
+#third-row .circle {
+    width: 60px;
+    height: 60px;
+    background: #de6868;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.circle:first-child {
+    opacity: 0;
+}
+
+.green.fancy, .green, .fancy {
+    background: #6392c0;
+}
+.circle:hover {
+    opacity: 0.5;
+}
+#second-row .circle:hover {
+    transform: scale(1.25);
+}
+ 
+
+
