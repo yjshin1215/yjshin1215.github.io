@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Homepage */
+/* Header */
+.header {
+    background: #31210A;
+    height: 91px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 41px;
+}
+
+#logo_image {
+    position: absolute;
+    top: 21px;
+    left: 31px;
+    width: 48px;
+    height: 48px;
+}
+
+#gypsy {
+    color: #FFF4E4;
+    font-family: Jost;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 93px;
+}
+
+#menus {
+    color: white;
+    font-family:DM Sans;
+    font-size: 30px;
+    font-weight: medium;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: right;
+}
+
+/* Body */
+/* Section 1 */
+.section1 {
+    background: white;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    row-gap: 39px;
+}
+
+#title_text {
+    font-family:DM Sans;
+    color: #31210A;
+    font-size: 50px;
+    font-weight: medium;
+}
+
+#view_menu_button {
+    width: 239px;
+    height: 81px;
+}
+
+#pasta_image {
+    width: 592px;
+    height: 458px;
+    position: absolute;
+    right: 70px;
+}
+
+/* Section 2 */
+
+.section2 {
+    background: #FFF4E4;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    row-gap: 39px;
+    align-items: flex-end;
+    text-align: right;
+}
+
+#header_1 {
+    font-family:DM Sans;
+    color: #31210A;
+    font-size: 30px;
+    font-weight: medium;
+}
+
+#view_catering_button {
+    width: 282px;
+    height: 81px;
+}
+
+#catering_image {
+    width: 592px;
+    height: 458px;
+    position: absolute;
+    left: 70px;
+}
+
+/* Section 3 */
+.section3 {
+    background: white;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 30px;
+}
+
+#phone_image {
+    width: 56px;
+    height: 56px;
+}
+
+#location_image {
+    width: 35px;
+    height: 43px;
+}
+
+#map_image {
+    width: 641px;
+    height: 481px;
+    position: absolute;
+    right: 70px;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.locationinfo {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #31210A;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 34px;
+}
+
+#normal_text {
+    font-family: DM Sans;
+    color: white;
+    font-size: 25px;
+    font-weight: regular;
+}
+
+#site_designed_by {
+    font-family: DM Sans;
+    color: white;
+    font-size: 20px;
+    font-weight: regular;
+}
+
+/* Menu Page */
+
+.menu_page1 {
+    background: #FFF4E4;
+    margin: 69px;
+    padding: 62px;
+}
+
+/* Catering Page */
+.catering_page {
+    background: white;
+    height: 460px;
+    padding: 79px;
+}
+
+#normal_text_black {
+    font-family: DM Sans;
+    color: #31210A;
+    font-size: 25px;
+    font-weight: regular;
+}
+
+/* Contact Page */
+.contact_page {
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    justify-content: space-between;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+#location {
+    font-family: DM Sans;
+    color: #31210A;
+    font-size: 25px;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: flex-start;
+}
+
+.phone_number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.street_address {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
