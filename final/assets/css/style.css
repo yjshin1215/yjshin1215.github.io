@@ -1,0 +1,108 @@
+/* Starting Page */
+
+body {
+    background-color: #4C2C21;
+}
+
+#title_text {
+    font-family: DM Sans;
+    color: #FF720D;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+    padding-bottom: 13px;
+}
+
+#sub_text {
+    font-family: DM Sans;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tray */
+
+#bossam {
+    position: absolute;
+    left: 425px;
+    top: 345px;
+ }
+
+#radish_kimchi {
+    position: absolute;
+    left: 701px;
+    top: 345px;
+ }
+#jangjorim {
+    position: absolute;
+    left: 824px;
+    top: 447px;
+}
+#kimchi_pancake{
+    position: absolute;
+    left: 1017px;
+    top: 345px;
+}
+#utensils {
+    position: absolute;
+    left: 1303px;
+    top: 408px;
+}
+#rice {
+    position: absolute;
+    left: 704.67px;
+    top: 576.91px;
+}
+#gook {
+    position: absolute;
+    left: 959px;
+    top: 570px;
+}
+
+/* Animation */
+@keyframes Wave {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(-20px); }
+	100% { transform: translateY(0); }
+}
+
+#bossam:hover {
+    position: absolute;
+    left: 425px;
+    top: 345px;
+    animation-name: Wave;
+    animation-duration: 0.7s;
+ }
+
+#radish_kimchi:hover {
+    position: absolute;
+    left: 701px;
+    top: 345px;
+    animation-name: Wave;
+    animation-duration: 0.7s;
+ }
+#jangjorim:hover {
+    position: absolute;
+    left: 824px;
+    top: 447px;
+    animation-name: Wave;
+    animation-duration: 0.7s;
+}
+#kimchi_pancake:hover{
+    position: absolute;
+    left: 1017px;
+    top: 345px;
+    animation-name: Wave;
+    animation-duration: 0.7s;
+}
+
+#gook:hover {
+    position: absolute;
+    left: 959px;
+    top: 570px;
+    animation-name: Wave;
+    animation-duration: 0.7s;
+}
